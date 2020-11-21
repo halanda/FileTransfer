@@ -9,6 +9,9 @@ public class ClientStart {
 	public static void main(String[] args) {
 		
 		FTPClient client = new FTPClient();
+		
+		
+		
 		try {
 			client.connect();
 		} catch (IOException e) {
